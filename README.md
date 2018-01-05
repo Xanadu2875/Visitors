@@ -20,7 +20,7 @@ PMMPプラグインです(Written in PHP)
 plugin.ymlに`depend: Visitors`を追加してください。
 
 ### How to Use
-`xanadu2875\Visitors\Viitros::getInstance()` でPreTeleporterの関数にアクセスできます。
+`xanadu2875\Visitors\Viitros::getInstance()` でVisitorの関数にアクセスできます。
 
 | 関数 | パラメーター | 説明 |
 | :-------: | :---: | :---------: |
@@ -29,7 +29,7 @@ plugin.ymlに`depend: Visitors`を追加してください。
 
 例:
 ```PHP
-use xanadu2875\preteleporter\PreTeleporter;
+use xanadu2875\Visitors\Viitros;
 Server::getInstance()->getLogger()->notice("実人数: {Visitors::getInstance()->getNumber()} 延べ人数: {Visitors::getInstance()->getTotal()}");
 ```
 
