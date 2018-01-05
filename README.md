@@ -17,7 +17,7 @@ PMMPプラグインです(Written in PHP)
 <details><summary>For Developer</summary>
 
 ### Caution
-`plugin.ymlに「depend: Visitors」を追加してください。`
+plugin.ymlに`depend: Visitors`を追加してください。
 
 ### How to Use
 `xanadu2875\Visitors\Viitros::getInstance()` でPreTeleporterの関数にアクセスできます。
