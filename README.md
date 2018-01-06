@@ -30,7 +30,7 @@ plugin.ymlに`depend: Visitors`を追加してください。
 例:
 ```PHP
 use xanadu2875\Visitors\Visitros;
-Server::getInstance()->getLogger()->notice("実人数: {Visitors::getInstance()->getNumber()} 延べ人数: {Visitors::getInstance()->getTotal()}");
+Server::getInstance()->getLogger()->notice("実人数: ".Visitors::getInstance()->getNumber()." 延べ人数: ".Visitors::getInstance()->getTotal());
 ```
 
 </details>
