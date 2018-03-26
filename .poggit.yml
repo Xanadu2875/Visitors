@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Xanadu2875/Visitors
+branches:
+- master
+projects:
+  Visitors:
+    path: ""
+...
